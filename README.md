@@ -13,3 +13,8 @@ You can build the docker file and run the container as it will run the python fi
 ### Method 2: Python File
 
 Directly run the python file via the command: "python3 web-app"
+
+
+## SIMPLIED VERSION
+
+This version is the simplified version and the beta version that I initially started working on. It is a good and quick solution using pandas and for a small dataset but would definitely not work well with bigger datasets
