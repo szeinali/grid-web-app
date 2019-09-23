@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid Application</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+				<table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Position</th>
+                        </tr>
+					</thead>
+                    <tbody>
+    				{% for value in table %}
+        			<tr>
+          				<td>{{ value[0] }}</td>
+          				<td>{{ value[1] }}</td>
+        			</tr>
+    				{% endfor %}
+					</tbody>
+				</table>
+	</div>
+</div>
+</body>
+</html>
