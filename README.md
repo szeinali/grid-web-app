@@ -1,7 +1,6 @@
 # grid-web-app
 Web Application displaying a Dataset in a Grid System
 
-##TO RUN
 You can build the docker file and run the container as it will run the python file or directly run the python file.
 ## Method 1: Docker File
 
